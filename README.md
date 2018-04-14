@@ -13,11 +13,21 @@ These instructions will get you a copy of the project up and running on your loc
 * Matlab software.
 * Basic knowledge about ordinary differential equations and numeric methods, especially Euler's method.
 
-In addition to being able to run the scripts, the idea is to have knowledge of what is done.
+In addition to being able to run the scripts, the idea is to have knowledge of what is done (read the paper for that).
 
 ### Installing
 
-Clone the repo in your local machine ```$ git clone https://github.com/ClementeSerrano/euler_vs_analytical_diffEqsMethods.git``` and open the project in the Matlab IDLE. Then just run it.
+Clone the repo in your local machine ```$ git clone https://github.com/ClementeSerrano/euler_vs_analytical_diffEqsMethods.git``` and open it in the Matlab IDLE. Then just run the script you want.
+
+## About the math model
+
+Below I show the equations that the scripts model and also their respective results.
+
+### The Euler Method
+
+Interpreting the differential equation
+
+![img](http://latex.codecogs.com/svg.latex?%5Cfrac%7Bdy%7D%7Bdx%7D%3Df%28x%2Cy%29%5C%3B%5C%3B%7C%5C%3B%5C%3By%28x_0%29%3Dy_0)
 
 ## Authors
 
