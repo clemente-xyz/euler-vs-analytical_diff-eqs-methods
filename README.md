@@ -29,6 +29,20 @@ Interpreting the differential equation
 
 ![alt text](http://latex.codecogs.com/svg.latex?%5Cfrac%7Bdy%7D%7Bdx%7D%3Df%28x%2Cy%29%5C%3B%5C%3B%7C%5C%3B%5C%3By%28x_0%29%3Dy_0)
 
+as an vector field in the plane ![alt text](http://latex.codecogs.com/svg.latex?xy) and the condition ![alt text](http://latex.codecogs.com/svg.latex?y%28x_0%29%3Dy_0) as a point ![alt text](http://latex.codecogs.com/svg.latex?%28x_0%2Cy_0%29) of that plane, you can approximate the solution function ![alt text](http://latex.codecogs.com/svg.latex?y%28x%29) by means of the tangent line to the same one that passes through that point:
+
+![alt text](http://latex.codecogs.com/svg.latex?%5Cfrac%7Bdy%7D%7Bdx%7D%5Capprox%5C%2Cy_0%2Bf%28x%2Cy%29%28x-x_0%29),
+
+where the slope of that tangent is: ![alt text](http://latex.codecogs.com/svg.latex?m%3Dy%27%28x_0%29) and, consequently, ![alt text](http://latex.codecogs.com/svg.latex?m%3Df%28x_0%2Cy_0%29).
+
+This is how the approximate value of the solution is calculated. Then, evaluating the point of the x-axis ![alt text](http://latex.codecogs.com/svg.latex?x_1) must be applied:
+
+![alt text](http://latex.codecogs.com/svg.latex?y%28x_1%29%5Capprox%5C%2Cy_1%3Dy_0%2Bf%28x_0%2Cy_0%29%28x_1-x_0%29).
+
+With this point already calculated, you can repeat the method to obtain the other approximate point ![alt text](http://latex.codecogs.com/svg.latex?%28x_2%2Cy_2%29). This is done in the following way:
+
+![alt text](ttp://latex.codecogs.com/svg.latex?y%28x_2%29%5Capprox%5C%2Cy_2%3Dy_1%2Bf%28x_1%2Cy_1%29%28x_2-x_1%29).
+
 ## Authors
 
 * **Clemente Serrano** - [ClementeSerrano](https://github.com/ClementeSerrano)
