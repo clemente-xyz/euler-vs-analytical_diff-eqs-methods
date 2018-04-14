@@ -46,6 +46,7 @@ With this point already calculated, you can repeat the method to obtain the othe
 It is usual in this method to calculate the approximate solution in points of the form: ![alt text](http://latex.codecogs.com/svg.latex?x_n%3Dx_%7B%28n-1%29%7D%2Bh%3Dx_0%2Bnh), where ![alt text](http://latex.codecogs.com/svg.latex?h) is the step size of the method. Using the above, the formulas that determine the approximate solution are obtained in the following way:
 
 (1) ![alt text](http://latex.codecogs.com/svg.latex?x_n%3Dx_%7B%28n-1%29%7D%2Bh).
+
 (2) ![alt text](http://latex.codecogs.com/svg.latex?y_n%3Dy_%7B%28n-1%29%7D%2Bf%28x_%7B%28n-1%29%7D%2Cy_%7B%28n-1%29%7D%29h).
 
 ### The Analytical Method
@@ -61,7 +62,10 @@ How to find an expression for these variable quantities? We could start by descr
 We solve this simple ODE in the following way:
 
 ![alt text](http://latex.codecogs.com/svg.latex?dV%3D%5Cleft%28Q_e-Q_s%5Cright%29%5C%2Cdt) (we separate variables),
+
 ![alt text](http://latex.codecogs.com/svg.latex?%5Cint%5C%2CdV%3D%5Cleft%28Q_e-Q_s%5Cright%29%5Cint%5C%2Cdt) (we integrate the differentials),
+
+![alt text](http://latex.codecogs.com/svg.latex?V%28t%29%3D%5Cleft%28Q_e-Q_s%5Cright%29t%2BV_i),
 
 where ![alt text](http://latex.codecogs.com/svg.latex?V_i) is the integration constant and for this case, the initial volume of the mixture in the camera.
 
@@ -77,7 +81,7 @@ With this information we can say that the differential variation of the amount o
 
 It is possible to notice that the amount ![alt text](http://latex.codecogs.com/svg.latex?Q_s%5C%2CC%28t%29) depends on the time. This is logical since in the output, the mixture does not maintain a constant concentration, a quantity that changes according to time.
 
-We are steps away from obtaining the differential equation that we are looking for. Before we will need to break down the concentration ![alt text](http://latex.codecogs.com/svg.latex?C%28t%29) of the rate of change ![alt text](http://latex.codecogs.com/svg.latex?%5Cfrac%7BdX%7D%7Bdt%7D). For this we will simply continue with the definition of concentration as a quantity of mass on unit of volume, only this time both variables with time. This mass $ m $ will be the amount of solute that we are looking for, in such a way that
+We are steps away from obtaining the differential equation that we are looking for. Before we will need to break down the concentration ![alt text](http://latex.codecogs.com/svg.latex?C%28t%29) of the rate of change ![alt text](http://latex.codecogs.com/svg.latex?%5Cfrac%7BdX%7D%7Bdt%7D). For this we will simply continue with the definition of concentration as a quantity of mass on unit of volume, only this time both variables with time. This mass $ m $ will be the amount of solute that we are looking for, in such a way that PENDING TO CONTINUE...
 
 ## Authors
 
